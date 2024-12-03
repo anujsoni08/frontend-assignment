@@ -1,0 +1,25 @@
+.pagination-container {
+  margin-top: 1rem;
+}
+
+.pagination-container button {
+  cursor: pointer;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+
+.pagination-container button:hover {
+  background-color: #ddd;
+}
+
+.page-info {
+  margin: 1rem;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
